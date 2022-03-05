@@ -1,0 +1,85 @@
+body {
+	background-color:#003d61;
+	margin:0;
+	font-family: "Helvetica";
+}
+h1{
+	color:white;
+	text-align:center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background:rgb(255, 141, 227);
+	margin:0;
+	font-weight:normal;
+	text-transform:uppercase;
+	padding: 20px 0;
+}
+button{
+	border:none;
+	background:none;
+	text-transform:uppercase;
+	height:100%;
+	color:rgb(0, 6, 87);
+	font-weight:700;
+	letter-spacing:1px;
+	font-size:inherit;
+	transition:all .3s;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	
+}
+button:hover{
+	color:white;
+	background:rgb(0, 35, 65);
+	max-block-size: 10vh;
+	cursor: pointer;
+}
+.square{
+	width:25%;
+	background:purple;
+	padding-bottom: 25%;
+	border-style: solid;
+	border-width: 0.51ch;
+	
+	float:left;
+	margin:1.66%;
+	border-radius:100%;
+	transition:background 1s;
+	-webkit-transition:background 1s;
+	-moz-transition:background 1s;
+}
+.square:hover{
+	cursor: pointer;
+	
+}
+.active{
+	background:steelblue;
+	color:white;
+}
+
+#container{
+	max-width:600px;
+	margin:20px auto;
+}
+#stripe{
+	background-color:white;
+	height:30px;
+	text-align:center;
+	width:100%;
+}
+#rgb{
+	font-size:300%;
+	line-height:1.1;
+}
+#message{
+	display:inline-block;
+	width:20%;
+	color:steelblue;
+	text-transform:uppercase;
+	font-weight:700;
+	letter-spacing:1px;
+	font-size:inherit;
+}
+
+/* By- Abhilasha Yadav,
+		Kajol,
+		Prashant Aditya */
